@@ -7,7 +7,8 @@ pipeline {
           echo "Hello world this is first Jenkins pipeline."
         }
 
-        sh "echo 'testing live edits from blueocean'"
+        sh 'echo \'testing live edits from blueocean\''
+        sh 'echo "Added 3rd step"'
       }
     }
 
